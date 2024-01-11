@@ -1,4 +1,5 @@
-/target
-/input
-/.vscode
-/Cargo.lock
+target/
+input/
+.vscode/
+Cargo.lock
+debug/
