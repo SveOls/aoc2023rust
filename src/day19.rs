@@ -1,7 +1,7 @@
 use std::{collections::HashMap, error::Error};
 
 pub fn run() -> Result<(), Box<dyn Error>> {
-    let file = super::parse("adventofcode.com_2023_day_19_input.txt")?;
+    let file = super::parse("day19")?;
     println!("day 19a: {}", parta(&file)?);
     let now = std::time::Instant::now();
     println!("day 19b: {}", partb(&file)?);

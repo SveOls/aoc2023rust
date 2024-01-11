@@ -6,7 +6,7 @@ use std::{
 
 
 pub fn run() -> Result<(), Box<dyn Error>> {
-    let file = super::parse("adventofcode.com_2023_day_24_input.txt")?;
+    let file = super::parse("day24")?;
     println!("day 24a: {}", parta(&file)?);
     let now = std::time::Instant::now();
     println!("day 24b: {}", partb(&file)?);

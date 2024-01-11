@@ -1,7 +1,7 @@
 use std::error::Error;
 
 pub fn run() -> Result<(), Box<dyn Error>> {
-    let file = super::parse("adventofcode.com_2023_day_13_input.txt")?;
+    let file = super::parse("day13")?;
     println!("day 13a: {}", parta(&file)?);
     let now = std::time::Instant::now();
     println!("day 13b: {}", partb(&file)?);
